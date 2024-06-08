@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<!-- here I chose a simple font and laid it out so the top menu would be the same on each page, and also be page specific. -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="index.css"></link>
+    <link rel="stylesheet" href="../global.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<!-- There I put everything in a "boxes" using div; top menu, Cartegory filter bar etc -->
+<body>
+
+    <div class="info-bar">
+        <div class="info-bar-container">
+            <div class="jordan-logo">
+                <img src="../assets/images/jordan logo.png" alt="">
+            </div>
+            <div class="info-actions">
+                <p>Find a Store</p>
+                <p>|</p>
+                <p>Help</p>
+                <p>|</p>
+                <p>Join Us</p>
+                <p>|</p>
+                <p>Sign In</p>
+            </div>
+        </div>
+    </div>
+    <div class="menu-bar">
+        <div class="info-bar-container">
+
+            <div class="nike-logo">
+                <img src="../assets/images/nike logo.png" alt="">
+            </div>
+
+            <div class="menu-items">
+                <p class="menu-item">New & Featured</p>
+                <p class="menu-item">Men</p>
+                <p class="menu-item">Women</p>
+                <p class="menu-item">Kids</p>
+                <p class="menu-item">Sale</p>
+            </div>
+
+            <div class="info-actions">
+                <input class="search" placeholder="Search..."></input>
+                <svg width="30" height="26" viewBox="0 0 33 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Heart">
+                    <path id="Vector" d="M28.9605 3.52271C28.0961 2.65864 27.0505 1.99744 25.8993 1.58689C24.7481 1.17634 23.52 1.02671 22.3039 1.14882C21.0878 1.27092 19.914 1.66171 18.8674 2.29293C17.8208 2.92415 16.9275 3.78004 16.2521 4.79871C15.6156 3.83676 14.7844 3.01898 13.8122 2.39816C12.8401 1.77735 11.7485 1.36728 10.6081 1.19445C9.46763 1.02162 8.30361 1.08986 7.19117 1.39477C6.07872 1.69967 5.04257 2.23447 4.14962 2.96463C3.25666 3.69479 2.52674 4.60409 2.00698 5.63382C1.48722 6.66356 1.18917 7.79084 1.13206 8.9429C1.07496 10.095 1.26008 11.2462 1.67546 12.3223C2.09085 13.3984 2.72727 14.3754 3.54365 15.1903L16.2521 27.8987L28.9605 15.1903C29.7266 14.4242 30.3344 13.5147 30.749 12.5137C31.1636 11.5128 31.377 10.4399 31.377 9.35649C31.377 8.27305 31.1636 7.20022 30.749 6.19926C30.3344 5.19829 29.7266 4.2888 28.9605 3.52271Z" stroke="#212121" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+                    </g>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+                    <path d="M9.73804 11.625V7.74996C9.73804 6.0371 10.3965 4.3944 11.5686 3.18323C12.7407 1.97206 14.3304 1.29163 15.988 1.29163C16.8088 1.29163 17.6215 1.45868 18.3798 1.78324C19.1381 2.1078 19.8271 2.58352 20.4075 3.18323C20.9878 3.78294 21.4482 4.4949 21.7623 5.27846C22.0764 6.06202 22.238 6.90184 22.238 7.74996V11.625" stroke="#212121" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M25.988 11.625H5.98804L3.48804 29.7083H28.488L25.988 11.625Z" stroke="#212121" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                    
+            </div>
+        </div>
+    </div>
+    <div class="page-info">
+        <div class="page-info-container">
+            <div class="top">Shop New Era Collection</div>
+            <a class="bottom">Shop Now</a>
+        </div>
+    </div>
+    
+    <!-- I ran out of time to style each image and their titles so I stuck with one and made them all clickable to the same link.
+    This still demonstrates what the page can do nicely. -->
+    <main>
+
+        <div class="main-wrapper">
+
+            <div class="cart">
+                <div class="cart-items">
+                    <div class="item">
+                        <div class="cart-img">
+                            <img src="../assets/images/SB Dunk.png" alt="" class="img">
+                        </div>
+                        <div class="info">SB Dunk High “P-Rod Dunk” <br/>
+                            Era Collection<br/>
+                            $190
+
+                            <div>
+                                <div class="flex-row">
+                                    <p>Size: 10</p>
+                                </div>
+                                <div class="flex-row">
+                                    <p>Quantity: 1</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="actions">                <svg width="30" height="26" viewBox="0 0 33 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Heart">
+                            <path id="Vector" d="M28.9605 3.52271C28.0961 2.65864 27.0505 1.99744 25.8993 1.58689C24.7481 1.17634 23.52 1.02671 22.3039 1.14882C21.0878 1.27092 19.914 1.66171 18.8674 2.29293C17.8208 2.92415 16.9275 3.78004 16.2521 4.79871C15.6156 3.83676 14.7844 3.01898 13.8122 2.39816C12.8401 1.77735 11.7485 1.36728 10.6081 1.19445C9.46763 1.02162 8.30361 1.08986 7.19117 1.39477C6.07872 1.69967 5.04257 2.23447 4.14962 2.96463C3.25666 3.69479 2.52674 4.60409 2.00698 5.63382C1.48722 6.66356 1.18917 7.79084 1.13206 8.9429C1.07496 10.095 1.26008 11.2462 1.67546 12.3223C2.09085 13.3984 2.72727 14.3754 3.54365 15.1903L16.2521 27.8987L28.9605 15.1903C29.7266 14.4242 30.3344 13.5147 30.749 12.5137C31.1636 11.5128 31.377 10.4399 31.377 9.35649C31.377 8.27305 31.1636 7.20022 30.749 6.19926C30.3344 5.19829 29.7266 4.2888 28.9605 3.52271Z" stroke="#212121" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+                            </g>
+                        </svg></div>
+                    </div>
+                    <div class="line-break" ></div>
+                </div>
+
+                <!--  I used flex to help me position everything. 
+                I used https://css-tricks.com/snippets/css/a-guide-to-flexbox/ as a guide -->
+
+                <div class="summary">
+                    <p>
+                        Summary
+                    </p>
+                    <div class="flex-row">
+                        <p>Subtotal</p>
+                        <p>$190</p>
+                    </div>
+                    <div class="flex-row">
+                        <p>Estimated delivery</p>
+                        <p>FREE</p>
+                    </div>
+                    
+                    <div class="line-break"></div>
+                    <div class="flex-row">
+                        <p>Total</p>
+                        <p>$190</p>
+                    </div>
+                    <div class="line-break"></div>
+
+                    <div class="flex-column button-container">
+                        <button>Guest Checkout</button>
+                        <button>Member Checkout</button>
+                    </div>
+
+
+                </div>
+            </div>
+
+<!-- the bottom bar under the product detail page and checkout page
+ran out of time to style page properly with the info text or find better images  -->
+
+
+        <p class="recomendations-title">You Might Also Like</p>
+        <div class="recomendations">
+            <a href="/detail/">
+                <div class="result">
+                    <img src="../assets/images/SB Dunk.png" alt="" class="img">
+                    <div class="name">SB Dunk High “P-Rod Dunk”
+                    </div>
+                    <div class="collection">
+                        Era Collection
+                    </div>
+                    <div class="price">
+                        $190
+                    </div>
+                </div>
+            </a>
+            <a href="/detail/">
+                <div class="result">
+                    <img src="../assets/images/SB Dunk.png" alt="" class="img">
+                    <div class="name">SB Dunk High “P-Rod Dunk”
+                    </div>
+                    <div class="collection">
+                        Era Collection
+                    </div>
+                    <div class="price">
+                        $190
+                    </div>
+                </div>
+            </a>
+            <a href="/detail/">
+                <div class="result">
+                    <img src="../assets/images/SB Dunk.png" alt="" class="img">
+                    <div class="name">SB Dunk High “P-Rod Dunk”
+                    </div>
+                    <div class="collection">
+                        Era Collection
+                    </div>
+                    <div class="price">
+                        $190
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        </div>
+
+    </main>
+
+</body>
+</html>

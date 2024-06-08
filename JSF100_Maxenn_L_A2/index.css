@@ -1,0 +1,63 @@
+.video-placeholder {
+  width: 1016.7px;
+  height: 647.308px;
+  flex-shrink: 0;
+  background: url(../assets/images/video\ placeholder.png),
+    lightgray 50% / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.era-card-row {
+  max-width: 1340px;
+  display: flex;
+  gap: 27px;
+  flex-direction: row;
+  height: 400px;
+  margin: auto;
+  margin-top: 92px;
+}
+.era-card {
+  flex-grow: 1;
+  max-width: 1344px;
+  text-align: center;
+}
+.era-card > div.img {
+  height: 314px;
+  width: 100%;
+  background-size: cover;
+  background-position: center -60px;
+}
+
+.era-card.striped-box > div.img {
+  background-position: center center;
+  background: url(../assets/images/striped\ box.png);
+  background-size: cover;
+  background-position: center -60px;
+}
+.era-card.black-box > div.img {
+  background-position: center center;
+  background: url(../assets/images/black\ box.png);
+  background-size: cover;
+  background-position: center -60px;
+}
+.era-card.pink-box > div.img {
+  background-position: center center;
+  background: url(../assets/images/pink\ box.png);
+  background-size: cover;
+  background-position: center -60px;
+}
+
+.title {
+  margin-top: 22px;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 36px */
+  text-decoration-line: underline;
+}
