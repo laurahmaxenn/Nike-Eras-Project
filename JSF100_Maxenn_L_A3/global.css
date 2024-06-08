@@ -1,0 +1,170 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.info-bar {
+  background-color: #f5f5f5;
+  height: 45px;
+}
+.menu-bar {
+  /* background-color: #f5f5f5; */
+  height: 56px;
+  display: block;
+}
+.page-info {
+  background-color: #f5f5f5;
+  height: 56px;
+}
+
+.collection-banner {
+  background: linear-gradient(
+    174deg,
+    rgba(172, 79, 79, 0.54) 0%,
+    rgba(217, 217, 217, 0) 66.28%
+  );
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 322px;
+}
+
+.info-bar-container {
+  max-width: 1340px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+.info-bar-container > .jordan-logo > img {
+  width: 30.832px;
+  height: 30.832px;
+  flex-shrink: 0;
+}
+
+.info-actions {
+  display: flex;
+  flex-direction: row;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.info-actions > p {
+  color: #000;
+  font-family: Segoe UI;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu-bar > .info-bar-container > .menu-items {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 31px;
+  flex: 1 0 0;
+  max-width: 500px;
+}
+.menu-bar > .info-bar-container > .menu-items > .menu-item {
+  color: #000;
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.menu-bar > .info-bar-container > .nike-logo {
+  width: 250px;
+}
+.menu-bar > .info-bar-container > .nike-logo > img {
+  width: 74.733px;
+  height: 27.908px;
+  transform: rotate(-0.738deg);
+  flex-shrink: 0;
+}
+
+.page-info > .page-info-container {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page-info > .page-info-container > .top {
+  color: #000;
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 24px */
+}
+.page-info > .page-info-container > .bottom {
+  color: #000;
+  font-family: Segoe UI;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-decoration-line: underline;
+}
+
+.search {
+  border-radius: 15px;
+  border: 1px solid #000;
+  background: rgba(217, 217, 217, 0);
+  width: 164.579px;
+  height: 39.106px;
+  flex-shrink: 0;
+  padding: 18px;
+}
+
+.collection-banner > .collection-info {
+  text-align: center;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.collection-banner > .collection-info > .collection-title {
+  color: #000;
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.collection-banner > .collection-info > .title-collection {
+  color: #000;
+  font-family: Segoe UI;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.collection-banner > .collection-info > .info {
+  color: #000;
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.line-break {
+  height: 2px;
+  background-color: currentColor;
+  width: 100%;
+}
